@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 
+"""This script contains code for a pascal triangle."""
+
 def pascal_triangle(n):
+    """This function defines a Pascal's Triangle."""
     if n <= 0:
         return []
 
