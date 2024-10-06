@@ -1,9 +1,22 @@
 #!/usr/bin/python3
 
-"""This script contains code for a pascal triangle."""
+"""
+This script contains a function code for a Pascal's Triangle.
+
+Example:
+    pascal_triangle(5)
+"""
 
 def pascal_triangle(n):
-    """This function defines a Pascal's Triangle."""
+    """
+    This function defines a Pascal's Triangle.
+
+    Args: n (int): The number of rows to generate in Pascal's Triangle.
+
+    Returns:
+    list of lists: Pascal's Triangle to the nth row.
+    """
+
     if n <= 0:
         return []
 
